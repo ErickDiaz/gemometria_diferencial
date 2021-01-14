@@ -1,2 +1,2 @@
-# gemometria_diferencial
-gemometria_diferencial
+# Geometría Diferencial Aplicada 
+Máster Universitario en Ingeniería Matemática y Computación (INGMATE) - PER1582 2020-2021
