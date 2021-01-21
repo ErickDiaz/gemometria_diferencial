@@ -1,3 +1,4 @@
+clear
 syms u t y x;
 
 x = 0:0.1:2*pi;
@@ -11,6 +12,6 @@ ylabel('y');
 title('y=cos^2(x)');
 
 subplot(1,2,2)
-ezsurf(t,(cos(t).^2)*cos(u),(-cos(t).^2)*sin(u),[0,2*pi,0,2*pi])
-title('Superficie de Revolucion - Rotacion en x')
+ezsurf(t*cos(u), cos(t)^2, t*sin(u),[0,2*pi,0,2*pi])
+title('Superficie de Revolucion - Rotacion en y')
 
